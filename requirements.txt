@@ -1,0 +1,28 @@
+# ── Database ──────────────────────────────────────────────────────────────────
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+pgvector==0.3.6             # SQLAlchemy + psycopg integration for vector columns
+
+# ── Azure OpenAI ─────────────────────────────P─────────────────────────────────
+openai==1.58.1              # Official Azure OpenAI compatible SDK
+
+# ── Document processing ───────────────────────────────────────────────────────
+pdfplumber==0.11.4          # Robust PDF text extraction (tables, multi-column)
+
+# ── BM25 (in-memory) ──────────────────────────────────────────────────────────
+rank-bm25==0.2.2
+
+# ── Frontend ──────────────────────────────────────────────────────────────────
+streamlit==1.41.1
+yfinance==0.2.50
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+httpx==0.28.1
+# ── Configuration ─────────────────────────────────────────────────────────────
+pydantic==2.10.3
+pydantic-settings==2.6.1
+python-dotenv==1.0.1
+tiktoken==0.8.0             # Token counting for GPT-4o / text-embedding-3-large
+
+
+             # Async HTTP client (used internally by openai SDK)
